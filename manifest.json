@@ -1,13 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "PopOut",
-    "description": "Popout Music",
+    "name": "Word of the day",
+    "description": "Word of the day and description",
     "version": "0.01",
-    "browser_action": {
-     "default_title": "Popout HTML",
-     "default_popup" : "popout.html"
-     },
-
+    "chrome_url_overrides" :{
+        "newtab" : "newtab.html"
+    },
     "icons": { "16": "icon16.png",
            "48": "icon48.png",
           "128": "icon128.png" }
